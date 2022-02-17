@@ -5,22 +5,21 @@ date: "11/18/2021"
 output: html_document
 dataset:
   citation:
-      title: "Social Data Commons: your title here"
+      title: "Social Data Commons: Education & Training: Virginia Preschool Initiative Access"
       subtitle: ""
-      dsDescriptionValue: "Virginia Standards of Learning Test Scores collected by the Virginia Department of Education (VDOE)"
+      dsDescriptionValue: "Virginia Preschool Initiative data collected by the Virginia Department of Education (VDOE) to obtain catchment area scores and more"
       subject: "Social Sciences (Ex: Education, Politics, Sociology, Economics, Psychology)"
-      productionDate: "2021-11-17"
-      timePeriodCoveredStart: "2015-01-01"
-      timePeriodCoveredEnd: "2021-01-01"
+      productionDate: "2022-02-17"
+      timePeriodCoveredStart: "2017-01-01"
+      timePeriodCoveredEnd: "2021-12-31"
       dataSources:
-        - "ACS"
-        - "County Health Rankings"
+        - "VDOE"
       author:
-        - authorName: "Schroeder, Aaron"
+        - authorName: "Alerte, Zachary"
           authorAffiliation: "Univeristy of Virginia"
         - authorName: "Charankevich, Hanna"
           authorAffiliation: "Univeristy of Virginia"
-        - authorName: "Niagra, Bob"
+        - authorName: "Schroeder, Aaron"
           authorAffiliation: "Univeristy of Waterloo"
       datasetContact:
         - datasetContactEmail: "ads7fg@virginia.edu"
@@ -32,6 +31,7 @@ dataset:
     geographicUnit:
       - "State Health District"
       - "County"
+      - "Census Tract"
 ---
 
 ```{r setup, include=FALSE}
