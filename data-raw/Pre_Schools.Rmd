@@ -133,7 +133,7 @@ get_lonlat <- function(provider_details_report)
 drive_times <- function(new_demand, supply)
 {
   # options for OSRM
-  options(osrm.server = "http://104.248.112.16:5000/", osrm.profile = "car") # can change option to car, bike, or walk
+  options(osrm.server = Sys.getenv("OSRM_SERVER"), osrm.profile = "car") # can change option to car, bike, or walk
   
   # where do we get actual longitude-latitude data for the stores
   start.time <- Sys.time() # using this to see run-time
@@ -520,7 +520,7 @@ get_demand_tract <- function(year)
 drive_times_tract <- function(new_demand, supply)
 {
   # options for OSRM
-  options(osrm.server = "http://104.248.112.16:5000/", osrm.profile = "car") # can change option to car, bike, or walk
+  options(osrm.server = Sys.getenv("OSRM_SERVER"), osrm.profile = "car") # can change option to car, bike, or walk
   
   # where do we get actual longitude-latitude data for the stores
   start.time <- Sys.time() # using this to see run-time
@@ -683,7 +683,7 @@ get_demand_hd <- function(year)
 drive_times_hd <- function(new_demand, supply)
 {
   # options for OSRM
-  options(osrm.server = "http://104.248.112.16:5000/", osrm.profile = "car") # can change option to car, bike, or walk
+  options(osrm.server = Sys.getenv("OSRM_SERVER"), osrm.profile = "car") # can change option to car, bike, or walk
   
   # where do we get actual longitude-latitude data for the stores
   start.time <- Sys.time() # using this to see run-time
