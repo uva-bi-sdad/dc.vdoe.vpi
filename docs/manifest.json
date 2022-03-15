@@ -1,0 +1,27 @@
+{
+  "name": "dc.vdoe.vpi",
+  "data": [
+    {
+      "name": "vpi_provider_access",
+      "variables": ["2sefca30_median_n_students", "3sfca_median_n_students", "perc_3sfca", "norm_3sfca", "perc_2sefca", "norm_2sefca", "vpi_provider_count", "actual_full_day_4s", "actual_half_day_4s"],
+      "file": "va_hdcttr_sdad_vdoe_2017_2021_vpi_provider_access.csv.xz",
+      "size": 351396,
+      "md5": "30ee54568782c76922aeba1107fc916a"
+    }
+  ],
+  "distributions": {
+    "dataverse": {
+      "id": 55857,
+      "doi": "doi:10.18130/V3/DOSD0K",
+      "server": "https://dataverse.lib.virginia.edu/",
+      "data": [
+        {
+          "file": "va_hdcttr_sdad_vdoe_2017_2021_vpi_provider_access.csv.xz",
+          "id": 55858,
+          "size": 351396,
+          "md5": "30ee54568782c76922aeba1107fc916a"
+        }
+      ]
+    }
+  }
+}
